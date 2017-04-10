@@ -19,7 +19,7 @@
       <li>Replying to you via <a href="mailto:balajmarius93@gmail.com" class="email">Email</a></li>
       <li>Making calls with <a href="skype:marius.balaj" class="skype">Skype</a></li>
       <li>Being an open-source pro on <a target="_blank" href="http://github.com/balajmarius" class="github">Github</a></li>
-      <li>Bustin’ pixels on <a target="_blank" href="http://dribbble.com/mariusbalaj" class="dribbble">Dribbble</a></li>
+      <li>Bustin’ pixels on <a target="_blank" href="http://dribbble.com/balajmarius" class="dribbble">Dribbble</a></li>
     </ul>
 
   </div>
