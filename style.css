@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #212931;
+  color: #8598ad;
+  font: 16px/25px "Inconsolata", monospace;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ccd3dc;
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+.wrap {
+  max-width: 450px;
+  margin: 100px;
+}
+
+.title {
+  color: #45c957;
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: normal;
+  margin: 0 0 40px;
+}
+
+
+.skype {
+  color: #6CC8F0;
+}
+
+.github {
+  color: #97AECC;
+}
+
+.dribbble {
+  color: #FF7DA5;
+}
