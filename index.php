@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/png" href="favicon.png" />
-  <title>Balaj Marius</title>
+  <title>Marius Balaj</title>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
