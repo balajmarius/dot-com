@@ -36,6 +36,10 @@ a {
   margin: 0 0 40px;
 }
 
+.hackerrank {
+  color: #2fca67;
+}
+
 .skype {
   color: #6CC8F0;
 }
@@ -46,8 +50,4 @@ a {
 
 .dribbble {
   color: #FF7DA5;
-}
-
-.hackerrank {
-  color: #2fca67;
 }
