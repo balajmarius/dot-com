@@ -48,6 +48,10 @@ body {
   position: relative;
 }
 
+.workspace > img {
+  display: block;
+}
+
 .octocat {
   display: block;
   background-image: url("images/octocat.png");
@@ -56,7 +60,7 @@ body {
   height: 116px;
   width: 108px;
   position: absolute;
-  bottom: 71px;
+  bottom: 64px;
   left: 24px;
 }
 
