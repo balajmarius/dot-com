@@ -28,8 +28,6 @@
       <img src="images/workspace.gif"/>
     </div>
   </div>
-
-  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 
 </html>
