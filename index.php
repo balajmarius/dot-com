@@ -11,20 +11,25 @@
 </head>
 
 <body>
-  <div class="wrap">
+  
+  <div class="room">
+    <div class="details">
+      <h1 class="title">Hi, I’m Marius Balaj.<br/>You’ll find me:</h1>
 
-    <h1 class="title">Hi, I’m Marius Balaj.<br>You’ll find me:</h1>
+      <ul class="social">
+        <li>Replying to you via <a href="mailto:balajmarius93@gmail.com" class="email">Email</a></li>
+        <li>Making calls with <a href="skype:marius.balaj" class="skype">Skype</a></li>
+        <li>Being an open-source pro on  <a target="_blank" href="http://github.com/balajmarius" class="github">Github</a></li>
+      </ul>
+    </div>
 
-    <ul>
-      <li>Replying to you via <a href="mailto:balajmarius93@gmail.com" class="email">Email</a></li>
-      <li>Making calls with <a href="skype:marius.balaj" class="skype">Skype</a></li>
-      <li>Being an open-source pro on <a target="_blank" href="http://github.com/balajmarius" class="github">Github</a></li>
-      <li>Solving challenges on <a target="_blank" href="http://hackerrank.com/balajmarius" class="hackerrank">HackerRank</a></li>
-      <li>Bustin’ pixels on <a target="_blank" href="http://dribbble.com/balajmarius" class="dribbble">Dribbble</a></li>
-    </ul>
-
+    <div class="workspace">
+      <a href="http://github.com/balajmarius" class="octocat" target="_blank"></a>
+      <img src="images/workspace.gif"/>
+    </div>
   </div>
 
+  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 
 </html>

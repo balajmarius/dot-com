@@ -8,46 +8,67 @@
 }
 
 body {
-  background: #212931;
-  color: #8598ad;
+  color: #ded6cc;
+  background: #6d6e6c;
   font: 16px/25px "Inconsolata", monospace;
 }
 
-li {
-  list-style: none;
+.room {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-a {
-  color: #ccd3dc;
-  text-decoration: none;
-  transition: color 200ms;
-}
-
-.wrap {
-  max-width: 450px;
-  margin: 100px;
+.details {
+  margin-bottom: 60px;
 }
 
 .title {
-  color: #45c957;
-  font-size: 28px;
-  line-height: 45px;
+  color: #a4da54;
   font-weight: normal;
-  margin: 0 0 40px;
+  line-height: 45px;
+  margin-bottom: 20px;
 }
 
-.skype {
-  color: #6CC8F0;
+.social {
+  list-style-type: none;
 }
 
-.github {
-  color: #97AECC;
+.social li > a {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: #ded6cc;
 }
 
-.dribbble {
-  color: #FF7DA5;
+.workspace {
+  width: 720px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.hackerrank {
-  color: #2fca67;
+.octocat {
+  display: block;
+  background-image: url("images/octocat.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 116px;
+  width: 108px;
+  position: absolute;
+  bottom: 71px;
+  left: 24px;
+}
+
+.octocat:hover {
+  animation: jump 500ms steps(8);
+}
+
+@keyframes jump {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -928px;
+  }
 }
