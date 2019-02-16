@@ -1,4 +1,3 @@
-# Dotcom
-> balajmarius.com 🌏
+# dot-com ☄️
+> Static web page 
 
-![Heroku](http://heroku-badge.herokuapp.com/?app=balajmarius)

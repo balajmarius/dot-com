@@ -1,0 +1,104 @@
+:root {
+  --white: #ded6cc;
+  --black: #6d6e6c;
+  --green: #a4da54;
+
+  --font-family-sans: "Inconsolata", monospace;
+  --font-size-large: 25px;
+  --font-size-base: 16px;
+
+  --octocat-frames: 8;
+  --octocat-speed: 500ms;
+  --octocat-last-frame-position: -928px;
+}
+
+/**
+ * Tiny reset
+ */
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+/**
+ * Styles
+ */
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-sans);
+  font-weight: 300;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me {
+  margin-bottom: 60px;
+}
+
+.about-me h1 {
+  line-height: 45px;
+  color: var(--green);
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.about-me a {
+  border-bottom: 1px solid var(--white);
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
+
+.environment {
+  position: relative;
+}
+
+.environment a {
+  left: 20px;
+  bottom: 64px;
+  width: 108px;
+  height: 116px;
+  display: block;
+  position: absolute;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../images/octocat.png");
+}
+
+.environment a:hover {
+  animation: jump var(--octocat-speed) steps(var(--octocat-frames));
+}
+
+@keyframes jump {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 var(--octocat-last-frame-position);
+  }
+}
