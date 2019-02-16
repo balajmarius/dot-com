@@ -87,7 +87,7 @@ body {
   position: absolute;
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url("../images/cat.png");
+  background-image: url("../images/cat-sprite.png");
 }
 
 .environment a:hover {
