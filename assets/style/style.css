@@ -7,9 +7,9 @@
   --font-size-large: 25px;
   --font-size-base: 16px;
 
-  --octocat-frames: 8;
-  --octocat-speed: 500ms;
-  --octocat-last-frame-position: -928px;
+  --cat-frames: 8;
+  --cat-speed: 500ms;
+  --cat-last-frame-position: -928px;
 }
 
 /**
@@ -87,11 +87,11 @@ body {
   position: absolute;
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url("../images/octocat.png");
+  background-image: url("../images/cat.png");
 }
 
 .environment a:hover {
-  animation: jump var(--octocat-speed) steps(var(--octocat-frames));
+  animation: jump var(--cat-speed) steps(var(--cat-frames));
 }
 
 @keyframes jump {
@@ -99,6 +99,6 @@ body {
     background-position: 0 0;
   }
   to {
-    background-position: 0 var(--octocat-last-frame-position);
+    background-position: 0 var(--cat-last-frame-position);
   }
 }
