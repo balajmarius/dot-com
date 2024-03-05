@@ -1,3 +1,3 @@
 # dot-com ☄️
-> Static web page 
 
+> Static web page

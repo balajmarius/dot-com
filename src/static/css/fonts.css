@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Geist";
+  src: local("Geist"), url("../fonts/Geist-Regular.otf") format("opentype"),
+    url("../fonts/Geist-Regular.woff2") format("woff2");
+}
