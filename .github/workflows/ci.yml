@@ -34,8 +34,8 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: gh-pages
           build_dir: public
+          target_branch: gh-pages
           fqdn: balajmarius.com
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
