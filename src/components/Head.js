@@ -14,6 +14,6 @@ export default () => (
     <meta name="twitter:creator" content={seo.twitter} />
     <link rel="icon" href={favicon} />
     <title>{seo.title}</title>
-    <body className="font-sans bg-black text-gray-50 text-xl md:text-2xl" />
+    <body className="font-sans bg-black text-gray-50 text-xl md:text-2xl selection:bg-white selection:text-black" />
   </>
 );

@@ -26,7 +26,7 @@ export default () => {
         {content.map(({ text, icon }) => (
           <Fragment key={icon}>
             <FeatherIcon icon={icon} className="text-white w-6 h-6 md:w-8 md:h-8" />
-            <p className="selection:bg-white selection:text-black">
+            <p>
               <Interpolate string={text} mapping={urls} />
             </p>
           </Fragment>
