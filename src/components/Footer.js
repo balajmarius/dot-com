@@ -11,7 +11,7 @@ export default () => (
           key={href}
           target="_blank"
           rel="noreferrer"
-          className="transition-all text-gray-100 hover:text-white"
+          className="transition-all text-gray-100 hover:text-white selection:bg-white selection:text-black"
         >
           {text}
         </a>
