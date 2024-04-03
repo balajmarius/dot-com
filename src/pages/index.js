@@ -16,9 +16,10 @@ export default () => {
     url1: <Url href="https://www.linkedin.com/company/qed-builders-software" />,
     url2: <Url href="https://timisoara2023.eu/en" />,
     url3: <Url href="https://csviitorultimisoara.ro" />,
-    url4: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
-    url5: <Url href="https://en.wikipedia.org/wiki/The_Denationalization_of_Money" />,
-    url6: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
+    url4: <Url href="https://www.lacan.com/seminars1a.htm" />,
+    url5: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
+    url6: <Url href="https://en.wikipedia.org/wiki/The_Denationalization_of_Money" />,
+    url7: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
   };
 
   return (
