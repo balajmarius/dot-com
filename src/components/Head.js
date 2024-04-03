@@ -20,6 +20,6 @@ export default () => (
     <meta property="twitter:image" content={card} />
     <link rel="icon" href={favicon} />
     <title>{seo.title}</title>
-    <body className="font-sans bg-black text-gray-50 text-xl md:text-2xl selection:bg-white selection:text-black" />
+    <body className="font-sans bg-black text-gray-50 text-sm selection:bg-blue selection:text-white" />
   </>
 );

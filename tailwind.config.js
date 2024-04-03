@@ -7,8 +7,11 @@ module.exports = {
         sans: ["Geist", "system-ui", "sans-serif"],
       },
       colors: {
+        blue: {
+          DEFAULT: "#0091FF",
+        },
         gray: {
-          50: "#A1A1A1",
+          50: "#EDEDED",
           100: "#888888",
           150: "#333333",
         },

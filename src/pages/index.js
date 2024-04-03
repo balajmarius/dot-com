@@ -3,6 +3,7 @@ import FeatherIcon from "feather-icons-react";
 import Interpolate from "@doist/react-interpolate";
 
 import Url from "../components/Url";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 
@@ -23,17 +24,18 @@ export default () => {
   return (
     <Layout>
       <div className="grid gap-y-8">
+        <Header />
+
         {content.map(({ text, icon }) => (
           <Fragment key={icon}>
-            <FeatherIcon icon={icon} className="text-white w-6 h-6 md:w-8 md:h-8" />
             <p>
               <Interpolate string={text} mapping={urls} />
             </p>
           </Fragment>
         ))}
-      </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </Layout>
   );
 };
