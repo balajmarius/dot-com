@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import FeatherIcon from "feather-icons-react";
 import Interpolate from "@doist/react-interpolate";
 
 import Url from "../components/Url";
