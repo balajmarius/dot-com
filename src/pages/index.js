@@ -19,6 +19,7 @@ export default () => {
     url5: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
     url6: <Url href="https://en.wikipedia.org/wiki/The_Denationalization_of_Money" />,
     url7: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
+    url8: <Url href="mailto:marius@qed.builders" />,
   };
 
   return (
@@ -26,8 +27,8 @@ export default () => {
       <div className="grid gap-y-8">
         <Header />
 
-        {content.map(({ text, icon }) => (
-          <Fragment key={icon}>
+        {content.map((text) => (
+          <Fragment key={text}>
             <p>
               <Interpolate string={text} mapping={urls} />
             </p>

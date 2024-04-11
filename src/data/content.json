@@ -1,14 +1,6 @@
 [
-  {
-    "icon": "user",
-    "text": "Hi! I'm Marius, and I co-founded <url1>QED</url1>, a software company specializing in blockchain technologies based in <url2>Timisoara, Romania</url2>."
-  },
-  {
-    "icon": "activity",
-    "text": "Outside of the tech world, I'm also the President of <url3>Viitorul Boxing Club</url3>, where I use my leadership skills to promote healthy behaviors and well-being in our community."
-  },
-  {
-    "icon": "book-open",
-    "text": "Apart from boxing, I'm passionate about learning. My worldview is influenced by the ideas of great thinkers such as <url4>Jacques Lacan</url4>, <url5>Jean Baudrillard</url5>, <url6>Friedrich Hayek</url6>, and <url7>Richard Feynman</url7>."
-  }
+  "Hi! I'm Marius, and I co-founded <url1>QED</url1>, a software company specializing in blockchain technologies based in <url2>Timisoara, Romania</url2>.",
+  "Outside of the tech world, I'm also the President of <url3>Viitorul Boxing Club</url3>, where I use my leadership skills to promote healthy behaviors and well-being in our community.",
+  "Apart from boxing, I'm passionate about learning. My worldview is influenced by the ideas of great thinkers such as <url4>Jacques Lacan</url4>, <url5>Jean Baudrillard</url5>, <url6>Friedrich Hayek</url6>, and <url7>Richard Feynman</url7>.",
+  "Reach out to me at <url8>marius@qed.builders</url8>."
 ]
