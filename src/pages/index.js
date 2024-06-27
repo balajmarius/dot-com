@@ -12,7 +12,7 @@ export { default as Head } from "../components/Head";
 
 export default () => {
   const urls = {
-    url1: <Url href="https://www.linkedin.com/company/qed-builders-software" />,
+    url1: <Url href="https://qed.builders" />,
     url2: <Url href="https://timisoara2023.eu/en" />,
     url3: <Url href="https://csviitorultimisoara.ro" />,
     url4: <Url href="https://www.lacan.com/seminars1a.htm" />,
