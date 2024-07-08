@@ -18,7 +18,7 @@ export default () => {
     url4: <Url href="https://www.lacan.com/seminars1a.htm" />,
     url5: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
     url6: <Url href="https://en.wikipedia.org/wiki/The_Denationalization_of_Money" />,
-    url7: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
+    url7: <Url href="https://asc.ohio-state.edu/kilcup.1/262/feynman.html" />,
     url8: <Url href="mailto:marius@qed.builders" />,
   };
 
