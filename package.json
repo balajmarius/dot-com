@@ -15,6 +15,7 @@
     "@doist/react-interpolate": "^1.1.0",
     "autoprefixer": "^10.4.18",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-postcss": "^6.13.1",
@@ -23,5 +24,8 @@
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
   }
 }

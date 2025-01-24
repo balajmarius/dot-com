@@ -1,8 +1,8 @@
 import React from "react";
 
-import seo from "../data/seo.json";
-import favicon from "../static/images/favicon.svg";
-import card from "../static/images/card.svg";
+import seo from "@/data/seo.json";
+import favicon from "@/static/images/favicon.svg";
+import card from "@/static/images/card.svg";
 
 export default () => (
   <>

@@ -10,6 +10,9 @@ module.exports = {
         blue: {
           DEFAULT: "#0091FF",
         },
+        red: {
+          DEFAULT: "#FF2E00",
+        },
         gray: {
           50: "#EDEDED",
           100: "#BEBEBE",
