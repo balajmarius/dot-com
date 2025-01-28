@@ -5,6 +5,6 @@ module.exports = {
   extends: "react-app",
   rules: {
     "no-anonymous-exports-page-templates": "off",
-    "no-anonymous-default-export": "off",
+    "import/no-anonymous-default-export": "off",
   },
 };
