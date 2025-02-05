@@ -13,13 +13,14 @@ export { default as Head } from "@/components/Head";
 export default () => {
   const urls = {
     url1: <Url href="https://qed.builders" />,
-    url2: <Url href="https://sandbox.game" />,
-    url3: <Url href="https://linktr.ee/cs_viitorul_timisoara" />,
-    url4: <Url href="https://www.lacan.com/seminars1a.htm" />,
-    url5: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
-    url6: <Url href="https://en.wikipedia.org/wiki/The_Road_to_Serfdom" />,
-    url7: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
-    url8: <Url href="mailto:marius@qed.builders" />,
+    url2: <Url href="https://tinyurl.com/33dv6jf5" />,
+    url3: <Url href="https://sandbox.game" />,
+    url4: <Url href="https://linktr.ee/cs_viitorul_timisoara" />,
+    url5: <Url href="https://www.lacan.com/seminars1a.htm" />,
+    url6: <Url href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" />,
+    url7: <Url href="https://en.wikipedia.org/wiki/The_Road_to_Serfdom" />,
+    url8: <Url href="https://en.wikipedia.org/wiki/Richard_Feynman" />,
+    url9: <Url href="mailto:marius@qed.builders" />,
     strike: <span className="text-gray-100 line-through" />,
   };
 
