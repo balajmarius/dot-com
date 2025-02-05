@@ -13,7 +13,9 @@ export { default as Head } from "@/components/Head";
 export default () => {
   const urls = {
     url1: <Url href="https://qed.builders" />,
-    url2: <Url href="https://tinyurl.com/33dv6jf5" />,
+    url2: (
+      <Url href="https://www.zf.ro/business-hi-tech/tranzactie-in-segmentul-web3-metaverse-the-sandbox-achizitioneaza-un-22681801" />
+    ),
     url3: <Url href="https://sandbox.game" />,
     url4: <Url href="https://linktr.ee/cs_viitorul_timisoara" />,
     url5: <Url href="https://www.lacan.com/seminars1a.htm" />,
